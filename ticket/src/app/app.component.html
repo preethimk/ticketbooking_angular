@@ -1,0 +1,6 @@
+<router-outlet></router-outlet>
+<form #form="ngForm" (submit)="getdata(form.value)">
+  <input type="text" ngModel name="user" #name placeholder="enter ur name"/><br/>
+  <input type="text" ngModel name="pass" #password placeholder="enter password"/><br/>
+  <button >save</button>
+</form>
